@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+.parent {
+    height: 500px;
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+    align-items: start;
+    align-content: space-evenly;
+}
+.child1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.child3 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+.child4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(241, 201, 113);
+}
+.child5 {
+    width: 100px;
+    height: 100px;
+    background: rgb(126, 30, 133);
+}
+
+.child6 {
+    width: 100px;
+    height: 100px;
+    background: rgb(251, 72, 224);
+}
+
+.child7 {
+    width: 100px;
+    height: 100px;
+    background: rgb(19, 0, 128);
+}
+.child8 {
+    width: 100px;
+    height: 100px;
+    background: rgb(64, 255, 0);
+}

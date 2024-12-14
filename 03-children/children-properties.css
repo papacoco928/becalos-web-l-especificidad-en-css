@@ -1,0 +1,23 @@
+.father {
+    display: flex;
+    flex-direction: row;
+}
+
+.children {
+    width: 300px;
+    height: 300px;
+}
+
+.children-1 {
+    background: black;
+    order: 1;
+}
+.children-2 {
+    background: peru;
+    order: 1;
+}
+
+.children-3 {
+    background: orchid;
+    order: 2;
+}

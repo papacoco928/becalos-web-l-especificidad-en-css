@@ -1,0 +1,42 @@
+.box-min-width {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.box-max-width {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+@media screen and (min-width: 500px) {
+    .box-min-width {
+        width: 50px;
+        height: 50px;
+        background: blue;
+    }    
+}
+
+@media screen and (min-width: 600px) {
+    .box-min-width {
+        width: 150px;
+        height: 150px;
+        background: yellowgreen;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .box-max-width {
+        width: 50px;
+        height: 50px;
+        background: red;
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    .box-max-width {
+        width: 150px;
+        height: 150px;
+        background: gray;
+    }    
+}
